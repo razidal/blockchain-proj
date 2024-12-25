@@ -12,5 +12,5 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 #to get the smart contract
 npx hardhat run scripts/deploy.js --network sepolia
-
+node scripts/transferTokens.mjs
 ```
