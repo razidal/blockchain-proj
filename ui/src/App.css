@@ -1,0 +1,100 @@
+.backgroundDiv {
+    background-image: url("../public/background_gif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:  blur(40px) invert(0);
+
+
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.title {
+  color: white;
+  margin-bottom: 1 rem;
+}
+
+.box {
+  margin-top: 50px;
+}
+
+.panel {
+  margin-top: 2em;
+}
+
+.hero {
+  margin-top: 3em;
+}
+
+.panel-heading {
+  background-image: linear-gradient(to left,#38052F, #070709);
+  background-color: black;
+  color: white;
+}
+
+.address-box {
+  padding: 3em;
+}
+
+.box .title {
+  color: #333;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-item {
+  color: white;
+}
+
+.connect-wallet span {
+  color: #ffffff;
+}
+
+.connect-wallet:hover {
+  background-color: #353535 !important;
+}
+
+.container.main-content {
+  width: 80% !important;
+}
+
+.withdraw-error {
+  color: red;
+}
+
+.withdraw-success {
+  color: green;
+}
+
+.connectedButtonDiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.connectedButton {
+  background-color: #38052F;
+  border: none;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.connectedButton:hover {
+  background-color: #070709;
+}
+
