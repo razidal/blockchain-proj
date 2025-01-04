@@ -19,22 +19,45 @@
   margin-bottom: 1 rem;
 }
 
-.box {
-  margin-top: 50px;
-}
-
 .panel {
   margin-top: 2em;
 }
 
 .hero {
-  margin-top: 3em;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 1em;
+  background-image: linear-gradient(to right,#72156396, #ca50b696);
+  color: white;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 600px;
+  height: 35px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.input:focus {
+  outline: 2px solid #661156;
+  box-shadow: 0 0 10px #000000;
 }
 
 .panel-heading {
   background-image: linear-gradient(to left,#38052F, #070709);
   background-color: black;
   color: white;
+  
 }
 
 .address-box {
@@ -61,8 +84,18 @@
   background-color: #353535 !important;
 }
 
-.container.main-content {
-  width: 80% !important;
+
+.container {
+  margin-top: 2em;
+  background-image: linear-gradient(to left,#2c092696, #070709);
+  border-radius: 10px;
+  border: 2px rgba(185, 29, 172, 0.068) solid;
+  width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .withdraw-error {
